@@ -25,17 +25,19 @@ header {
 	margin-top: 20px;
 }
 .header-button {
-  box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
-  border-radius: 50px;
-  background-color: #ffffff;
-  color: #072b6f;
-  font-size: 18px;
-  font-weight: 700;
-  padding-top: 17px;
-  padding-left: 55px;
-  padding-right: 55px;
-  padding-bottom: 17px;
-  margin-top: 33px;
+  	display: inline-block;
+  	text-decoration: none; 
+  	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+  	border-radius: 50px;
+  	background-color: #ffffff;
+  	color: #072b6f;
+  	font-size: 18px;
+  	font-weight: 700;
+  	padding-top: 17px;
+  	padding-left: 55px;
+  	padding-right: 55px;
+  	padding-bottom: 17px;
+  	margin-top: 33px;
 }
 header small {
 	font-size: 12px;
@@ -116,6 +118,7 @@ footer {
 }
 .footer-button {
 	display: inline-block;
+	text-decoration: none;
     border: 1px solid #ffffff;
     background-color: transparent;
     color: #fff;
